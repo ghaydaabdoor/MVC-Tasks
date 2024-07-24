@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Profile</h2>
+@if (Session["Email"] != null)
+{
+    <p>Current email is: @Session["Email"]</p>
+}
+else
+{
+    <p>No logged in user!</p>
+}
+

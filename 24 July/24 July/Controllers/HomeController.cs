@@ -19,7 +19,6 @@ namespace _24_July.Controllers
             return View();
         }
 
-        [HttpPost]
         public ActionResult Info()
         {
             ViewBag.Message = "Feedback details";
