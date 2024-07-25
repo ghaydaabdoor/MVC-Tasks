@@ -33,11 +33,22 @@
                          loading="lazy" />
                 </a>
                 <!-- Left links -->
+                @{ 
+                    string emailNav;
+                    if (Session["Email"]!=null)
+                    {
+                        emailNav = Session["Email"].ToString();
+                    }
+                    else
+                    {
+                        emailNav = "Profile";
+                    }
+                }
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li>@Html.ActionLink("Profile", "Profile", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink(emailNav, "Profile", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
                 <!-- Left links -->
             </div>

@@ -28,9 +28,10 @@ textarea {
     font-size: 19px;
 }
 
-.nav-link:hover {
+    .nav-link:hover {
         color: aqua;
-}
+    }
+
 .cardLogin {
     align-items: center;
     transform: translateY(-40px);
@@ -39,10 +40,19 @@ textarea {
 element.style {
     height: 650px;
 }
-.homeBody{
-    height:500px;
+
+.homeBody {
+    height: 500px;
 }
+
 .bg-dark {
     background-color: #6c757d;
 }
 
+.feedbackDiv {
+    width: 726px;
+    text-align: center;
+    border: solid 2px lightgrey;
+    margin: 10px auto 10px auto;
+    border-radius:5px;
+}

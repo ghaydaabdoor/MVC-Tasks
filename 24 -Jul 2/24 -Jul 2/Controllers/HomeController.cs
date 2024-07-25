@@ -33,8 +33,8 @@ namespace _24_July.Controllers
         }
         public ActionResult Logout()
         {
-            Session.Clear(); // Clear all session data
-            return RedirectToAction("Login");
+            Session.Clear();
+            return View("Login");
         }
 
         public ActionResult Contact()

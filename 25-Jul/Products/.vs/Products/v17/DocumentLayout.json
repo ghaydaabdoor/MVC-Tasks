@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\25-Jul\\Products\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E335F318-618E-46C6-949B-0FD09E438D47}|Products\\Products.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\25-jul\\products\\products\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E335F318-618E-46C6-949B-0FD09E438D47}|Products\\Products.csproj|solutionrelative:products\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E335F318-618E-46C6-949B-0FD09E438D47}|Products\\Products.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\25-Jul\\Products\\products\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E335F318-618E-46C6-949B-0FD09E438D47}|Products\\Products.csproj|solutionrelative:products\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\25-Jul\\Products\\Products\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Products\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\25-Jul\\Products\\Products\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Products\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAywBYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T19:37:53.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\25-Jul\\Products\\Products\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Products\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\25-Jul\\Products\\Products\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Products\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-25T19:33:03.178Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
