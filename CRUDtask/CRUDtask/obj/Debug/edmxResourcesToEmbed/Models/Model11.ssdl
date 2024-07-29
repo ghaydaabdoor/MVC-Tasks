@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="user28JulModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="user28Jul">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="userName" Type="varchar" MaxLength="50" />
+    <Property Name="userEmail" Type="varchar" MaxLength="50" />
+    <Property Name="userPassword" Type="varchar" MaxLength="50" />
+    <Property Name="images" Type="varchar" MaxLength="200" />
+  </EntityType>
+  <EntityContainer Name="user28JulModel1StoreContainer">
+    <EntitySet Name="user28Jul" EntityType="Self.user28Jul" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<CRUDtask.Models.user25>
+
+<h2>Users List</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Image</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.userID</td>
+                <td>@user.userName</td>
+                <td>@user.userEmail</td>
+                <td>@user.userPassword</td>
+                <td>@user.images</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = user.userID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = user.userID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.ActionLink("Create New", "Create")

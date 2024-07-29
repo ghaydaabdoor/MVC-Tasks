@@ -1,0 +1,27 @@
+﻿@model CRUDtask.Models.user28Jul
+
+<h2>Edit User</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.userID)
+    <div>
+        @Html.LabelFor(model => model.userName)
+        @Html.EditorFor(model => model.userName)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.userEmail)
+        @Html.EditorFor(model => model.userEmail)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.userPassword)
+        @Html.EditorFor(model => model.userPassword)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.images)
+        @Html.EditorFor(model => model.images)
+    </div>
+    <div>
+        <input type="submit" value="Save" />
+    </div>
+}
