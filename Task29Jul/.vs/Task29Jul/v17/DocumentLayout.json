@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\task29jul\\task29jul\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "Task29Jul\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Task29Jul\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-29T09:19:43.85Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
