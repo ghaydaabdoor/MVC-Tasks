@@ -1,0 +1,100 @@
+﻿@model IEnumerable<JOVOICE.Models.TempPartyCandidate>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.national_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.electionarea)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.partyname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.birthdate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.religion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ordercandidate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.candidatename)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.city)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Admin.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PartyCandidate.partyname)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.national_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.electionarea)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.partyname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.birthdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.religion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ordercandidate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.candidatename)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Admin.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PartyCandidate.partyname)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>

@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\task29jul\\task29jul\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\task29jul\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\views\\login\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\task29jul\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\task29jul\\task29jul\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\task29jul\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\task29jul\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\task29jul\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4F618CD0-5E57-445B-97CC-6C87E3473E51}|Task29Jul\\Task29Jul.csproj|solutionrelative:task29jul\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Views\\Login\\Register.cshtml",
+              "RelativeDocumentMoniker": "Task29Jul\\Views\\Login\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Views\\Login\\Register.cshtml",
+              "RelativeToolTip": "Task29Jul\\Views\\Login\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T09:08:36.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "Task29Jul\\Models\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "Task29Jul\\Models\\Model1.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T08:52:13.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "Task29Jul\\Models\\Model1.Context.tt",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "Task29Jul\\Models\\Model1.Context.tt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-30T08:52:09.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Task29Jul\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Task29Jul\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T08:48:34.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Task29Jul\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Task29Jul\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T07:57:58.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.edmx",
               "RelativeDocumentMoniker": "Task29Jul\\Models\\Model1.edmx",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\Task29Jul\\Task29Jul\\Models\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "Task29Jul\\Models\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-29T09:19:43.85Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-07-29T09:19:43.85Z"
             }
           ]
         }

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\24 July\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\24 July\\24 july\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\24 july\\24 july\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|solutionrelative:24 july\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|solutionrelative:24 july\\views\\home\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\24 july\\24 july\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\24 July\\24 july\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24C21C15-4F6C-4D3C-BDF7-B70FE823281A}|24 July\\24 July.csproj|solutionrelative:24 july\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "24 July\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\24 July\\24 July\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "24 July\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-23T22:56:36.725Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "24 July\\Views\\Home\\Info.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T22:19:20.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T22:19:20.607Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "24 July\\Views\\Home\\Form.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-23T22:08:39.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T22:08:39.414Z"
             },
             {
               "$type": "Document",
@@ -107,7 +105,7 @@
               "RelativeDocumentMoniker": "24 July\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\24 July\\24 July\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "24 July\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-23T21:46:55.786Z",
               "EditorCaption": ""
