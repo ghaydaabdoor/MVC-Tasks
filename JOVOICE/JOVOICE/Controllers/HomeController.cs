@@ -29,8 +29,6 @@ namespace JOVOICE.Controllers
 
         public ActionResult candMain()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
         public ActionResult candMain2()
@@ -44,14 +42,7 @@ namespace JOVOICE.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
-        }
-
-        public ActionResult partyForm()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+        }   
         public ActionResult debateForm()
         {
             ViewBag.Message = "Your contact page.";

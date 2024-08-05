@@ -59,7 +59,7 @@ namespace JOVOICE.Controllers
                     db.TempPartyCandidates.Add(candidate);
                 }
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("candMain", "Home");
             }
             return View(model);
         }

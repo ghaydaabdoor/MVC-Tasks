@@ -39,20 +39,15 @@ namespace JOVOICE.Controllers
         // GET: TempCandidateLocals/Create
         public ActionResult Create()
         {
-
             ViewBag.fk_admin = new SelectList(db.Admins, "id", "name");
-            ViewBag.id = new SelectList(db.LocalCandidates, "id", "name");
-            var model = new TempPartyCandidateViewModel();
+            var model = new TempCandidateLocalsViewModel();
             // Populate any additional data for dropdowns if necessary
             return View(model);
         }
 
-        // POST: TempCandidateLocals/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(TempPartyCandidateViewModel model)
+        public ActionResult Create(TempCandidateLocalsViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -60,13 +55,12 @@ namespace JOVOICE.Controllers
                 {
                     candidate.electionarea = model.ElectionArea;
                     candidate.city = model.City;
-                    candidate.partyname = model.PartyName; // Assuming party name is common for all
-                    db.TempPartyCandidates.Add(candidate);
+                    candidate.listname = model.ListName; // Assuming party name is common for all
+                    db.TempCandidateLocals.Add(candidate);
                 }
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("candMain", "Home");
             }
-
             return View(model);
         }
 

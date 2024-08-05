@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\source\\repos\\jovoice\\jovoice\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\source\\repos\\jovoice\\jovoice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\source\\repos\\jovoice\\jovoice\\views\\temppartycandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\jovoice\\jovoice\\views\\temppartycandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\views\\temppartycandidates\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\source\\repos\\jovoice\\jovoice\\controllers\\temppartycandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\controllers\\temppartycandidatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\jovoice\\jovoice\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|c:\\users\\orange\\source\\repos\\jovoice\\jovoice\\models\\temppartycandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\models\\temppartycandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\jovoice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F66E5D8B-E22A-4E85-BD55-5DE382C4A010}|JOVOICE\\JOVOICE.csproj|solutionrelative:jovoice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TempPartyCandidate.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Models\\TempPartyCandidate.cs",
-              "RelativeDocumentMoniker": "JOVOICE\\Models\\TempPartyCandidate.cs",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Models\\TempPartyCandidate.cs",
-              "RelativeToolTip": "JOVOICE\\Models\\TempPartyCandidate.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAqwDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:24:40.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TempPartyCandidatesController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Controllers\\TempPartyCandidatesController.cs",
-              "RelativeDocumentMoniker": "JOVOICE\\Controllers\\TempPartyCandidatesController.cs",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Controllers\\TempPartyCandidatesController.cs",
-              "RelativeToolTip": "JOVOICE\\Controllers\\TempPartyCandidatesController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:18:51.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
-              "RelativeDocumentMoniker": "JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
-              "RelativeToolTip": "JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
-              "ViewState": "AQIAAMAAAAAAAAAAAAAAANkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T16:25:46.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAAAIcAAAApAAAA",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
+              "RelativeDocumentMoniker": "JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
+              "RelativeToolTip": "JOVOICE\\Views\\TempPartyCandidates\\Create.cshtml",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAANAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-05T14:40:37.247Z",
+              "WhenOpened": "2024-08-05T20:45:46.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "JOVOICE\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAAKoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T20:06:41.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\JOVOICE\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "JOVOICE\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\JOVOICE\\JOVOICE\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\JOVOICE\\JOVOICE\\Controllers\\HomeController.cs",
               "RelativeToolTip": "JOVOICE\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAkwCkAAAAiAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T14:39:45.083Z",
               "EditorCaption": ""

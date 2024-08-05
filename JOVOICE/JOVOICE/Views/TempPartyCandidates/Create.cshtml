@@ -55,8 +55,8 @@
             margin-right: 10px;
         }
 
-        th {
-            text-align: right
+        th, td {
+            text-align: right;
         }
     </style>
 </head>
@@ -185,12 +185,7 @@
                                                                         @Html.ValidationMessageFor(m => m.Candidates[i].candidatename, "", new { @class = "text-danger" })
                                                                     </div>
                                                                 </td>
-                                                                <td>
-                                                                    <div class="form-group">
-                                                                        @Html.EditorFor(m => m.Candidates[i].ordercandidate, new { htmlAttributes = new { @class = "form-control", placeholder = "التسلسل" } })
-                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].ordercandidate, "", new { @class = "text-danger" })
-                                                                    </div>
-                                                                </td>
+                                                                <td>@(i + 1)</td>
                                                             </tr>
                                                         }
                                                     </tbody>
@@ -202,7 +197,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <button type="submit" class="btn btn-success btn-send pt-2 btn-block">إرسال النموذج</button>
+                                                <button id="sendBtn" type="submit" class="btn btn-success btn-send pt-2 btn-block">إرسال النموذج</button>
                                             </div>
                                         </div>
                                     </div>
@@ -215,3 +210,11 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.getElementById("sendBtn").onclick = function () {
+            window.alert("تم إرسال النموذج سوف يتم التواصل معم بأقرب وقت")
+        }
+    </script>
+    }

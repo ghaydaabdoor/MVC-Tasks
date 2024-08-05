@@ -1,124 +1,227 @@
-﻿@model JOVOICE.Models.TempCandidateLocal
+﻿@model JOVOICE.Models.TempCandidateLocalsViewModel
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "الترشح للقائمة المحلية";
     Layout = "~/Views/Shared/_LayoutPage1.cshtml";
 }
+<head>
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+        }
 
-<h2>Create</h2>
+        h1 {
+            margin-bottom: 40px;
+        }
 
-@using (Html.BeginForm()) 
-{
-    @Html.AntiForgeryToken()
-    
-    <div class="form-horizontal">
-        <h4>TempCandidateLocal</h4>
-        <hr />
-        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        <div class="form-group">
-            @Html.LabelFor(model => model.national_id, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.national_id, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.national_id, "", new { @class = "text-danger" })
+        input,
+        textarea {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        label {
+            color: #333;
+            display: block;
+            text-align: right;
+        }
+
+        .btn-send {
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            width: 100%;
+            margin-left: 3px;
+        }
+
+        .btn-success {
+            background-color: #e02454;
+            border-color: #e02454;
+            border-radius: 50rem;
+        }
+
+            .btn-success:hover {
+                background-color: #003a66;
+                border-color: #ff5050;
+            }
+
+        .help-block.with-errors {
+            color: #ff5050;
+            margin-top: 5px;
+        }
+
+        .card {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        th, td {
+            text-align: right;
+        }
+    </style>
+</head>
+
+<div class="container-fluid bg-breadcrumb">
+    <div class="container text-center py-5" style="max-width: 900px;">
+        <h3 class="text-white display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">خدمات المترشحين</h3>
+        <ol class="breadcrumb justify-content-center text-white mb-0 wow fadeInDown" data-wow-delay="0.3s">
+            <li class="breadcrumb-item"><a href="index.html" class="text-white">الرئيسية</a></li>
+            <li class="breadcrumb-item"><a href="#" class="text-white">صفحات</a></li>
+            <li class="breadcrumb-item active text-secondary">طلب الترشح للقوائم المحلية</li>
+        </ol>
+    </div>
+</div>
+
+<div class="container-fluid service overflow-hidden py-5">
+    <div class="container py-5">
+        <div class="section-title text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h5 class="sub-title text-primary px-3">طلب الترشح للقوائم المحلية</h5>
             </div>
+            <h1 class="display-5 mb-4">نموذج تقديم طلب الترشح للقوائم المحلية</h1>
+            <p class="mb-0">
+                نحن هنا لتقديم الدعم الكامل في عملية الترشح للقوائم المحلية في الانتخابات النيابية الأردنية.
+                يمكنك ملء النموذج أدناه لتقديم طلبك والترشح بنجاح ضمن القوائم المحلية
+            </p>
         </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.name, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
-            </div>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <div class="card mt-2 mx-auto p-4 bg-light">
+                        <div class="card-body bg-light">
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.listname, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.listname, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.listname, "", new { @class = "text-danger" })
-            </div>
-        </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.type_of_chair, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.type_of_chair, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.type_of_chair, "", new { @class = "text-danger" })
-            </div>
-        </div>
+                            @using (Html.BeginForm("Create", "TempCandidateLocals", FormMethod.Post, new { @class = "form-horizontal" }))
+                            {
+                                @Html.AntiForgeryToken()
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.gender, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.gender, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.gender, "", new { @class = "text-danger" })
-            </div>
-        </div>
+                                <div class="controls">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                @Html.LabelFor(m => m.ElectionArea, "الدائرة الانتخابية", new { @class = "control-label" })
+                                                @Html.EditorFor(m => m.ElectionArea, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال الدائرة الانتخابية" } })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                @Html.LabelFor(m => m.City, "المحافظة", new { @class = "control-label" })
+                                                @Html.EditorFor(m => m.City, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال المحافظة" } })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                @Html.LabelFor(m => m.ListName, "اسم القائمة", new { @class = "control-label" })
+                                                @Html.EditorFor(m => m.ListName, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال اسم القائمة" } })
+                                            </div>
+                                        </div>
+                                    </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.birthdate, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.birthdate, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.birthdate, "", new { @class = "text-danger" })
-            </div>
-        </div>
+                                    <div class="row mt-4">
+                                        <div class="col-md-12">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>البريد الإلكتروني</th>
+                                                            <th>تاريخ الميلاد</th>
+                                                            <th>الديانة</th>
+                                                            <th>الجنس</th>
+                                                            <th>الرقم الوطني</th>
+                                                            <th>الاسم</th>
+                                                            <th>التسلسل</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @for (int i = 0; i < Model.Candidates.Count; i++)
+                                                        {
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        @Html.EditorFor(m => m.Candidates[i].email, new { htmlAttributes = new { @class = "form-control", placeholder = "البريد الإلكتروني" } })
+                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].email, "", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        @Html.EditorFor(m => m.Candidates[i].birthdate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].birthdate, "", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        @Html.DropDownList($"Candidates[{i}].religion", new SelectList(new List<SelectListItem>
+                                                                        {
+                                                                            new SelectListItem { Text = "اختر الديانة", Value = "", Disabled = true },
+                                                                            new SelectListItem { Text = "مسلم", Value = "مسلم" },
+                                                                            new SelectListItem { Text = "مسيحي", Value = "مسيحي" },
+                                                                            new SelectListItem { Text = "درزي", Value = "درزي" },
+                                                                            new SelectListItem { Text = "غير ذلك", Value = "غير ذلك" }
+                                                                        }, "Value", "Text", Model.Candidates[i].religion), new { @class = "form-control" })
+                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].religion, "", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        @Html.DropDownList($"Candidates[{i}].gender", new SelectList(new List<SelectListItem>
+                                                                        {
+                                                                            new SelectListItem { Text = "اختر الجنس", Value = "", Disabled = true },
+                                                                            new SelectListItem { Text = "ذكر", Value = "ذكر" },
+                                                                            new SelectListItem { Text = "أنثى", Value = "أنثى" }
+                                                                        }, "Value", "Text", Model.Candidates[i].gender), new { @class = "form-control" })
+                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].gender, "", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        @Html.EditorFor(m => m.Candidates[i].national_id, new { htmlAttributes = new { @class = "form-control", placeholder = "الرقم الوطني" } })
+                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].national_id, "", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        @Html.EditorFor(m => m.Candidates[i].name, new { htmlAttributes = new { @class = "form-control", placeholder = "الاسم" } })
+                                                                        @Html.ValidationMessageFor(m => m.Candidates[i].name, "", new { @class = "text-danger" })
+                                                                    </div>
+                                                                </td>
+                                                                <td>@(i + 1)</td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
 
-        <div class="form-group">
-            @Html.LabelFor(model => model.votes_counter, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.votes_counter, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.votes_counter, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.religion, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.religion, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.religion, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.fk_admin, "fk_admin", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("fk_admin", null, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.fk_admin, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.electionarea, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.electionarea, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.electionarea, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.city, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.city, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.city, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            @Html.LabelFor(model => model.email, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.email, new { htmlAttributes = new { @class = "form-control" } })
-                @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
-            </div>
-        </div>
-
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <button id="sendBtn" type="submit" class="btn btn-success btn-send pt-2 btn-block">إرسال النموذج</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div> <!-- /.8 -->
+                </div> <!-- /.row-->
             </div>
         </div>
     </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        document.getElementById("sendBtn").onclick = function () {
+            window.alert("تم إرسال النموذج سوف يتم التواصل معم بأقرب وقت")
+        }
+    </script>
 }
 
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
+
+
+
+
+
