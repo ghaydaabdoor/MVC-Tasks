@@ -37,17 +37,11 @@ namespace JOVOICE.Controllers
 
             return View();
         }
-        public ActionResult localForm()
-        {
-            ViewBag.Message = "Your contact page.";
+        //public ActionResult debateForm()
+        //{
+        //    ViewBag.Message = "Your contact page.";
 
-            return View();
-        }   
-        public ActionResult debateForm()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
+        //    return View();
+        //}
     }
 }

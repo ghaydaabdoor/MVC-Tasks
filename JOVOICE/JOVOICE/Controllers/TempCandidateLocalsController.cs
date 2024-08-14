@@ -45,10 +45,12 @@ namespace JOVOICE.Controllers
             return View(model);
         }
 
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(TempCandidateLocalsViewModel model)
         {
+            model.MaxCandidates = GetMaxCandidates(model.ElectionArea);
             if (ModelState.IsValid)
             {
                 foreach (var candidate in model.Candidates)
@@ -63,6 +65,22 @@ namespace JOVOICE.Controllers
             }
             return View(model);
         }
+        private int GetMaxCandidates(string electionArea)
+        {
+            switch (electionArea)
+            {
+                case "إربد الأولى":
+                    return 8;
+                case "إربد الثانية":
+                    return 7;
+                case "المفرق":
+                    return 4;
+                default:
+                    return 10; // For all other areas
+            }
+        }
+
+
 
         // GET: TempCandidateLocals/Edit/5
         public ActionResult Edit(long? id)

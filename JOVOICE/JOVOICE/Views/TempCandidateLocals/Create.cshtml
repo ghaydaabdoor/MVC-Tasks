@@ -55,7 +55,7 @@
             margin-right: 10px;
         }
 
-        th, td {
+        th, td, select {
             text-align: right;
         }
     </style>
@@ -100,22 +100,44 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="form-group">
+                                                @Html.LabelFor(m => m.ListName, "اسم القائمة", new { @class = "control-label" })
+                                                @Html.EditorFor(m => m.ListName, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال اسم القائمة" } })
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
                                                 @Html.LabelFor(m => m.ElectionArea, "الدائرة الانتخابية", new { @class = "control-label" })
-                                                @Html.EditorFor(m => m.ElectionArea, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال الدائرة الانتخابية" } })
+                                                @Html.EditorFor(m => m.ElectionArea, new { htmlAttributes = new { @class = "form-control", id = "electionAreaInput", placeholder = "يرجى إدخال الدائرة الانتخابية" } })
+                                                @Html.DropDownListFor(m => m.ElectionArea, Enumerable.Empty<SelectListItem>(), new { @class = "form-control", id = "electionAreaDropdown", style = "display:none;" })
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
                                                 @Html.LabelFor(m => m.City, "المحافظة", new { @class = "control-label" })
-                                                @Html.EditorFor(m => m.City, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال المحافظة" } })
+                                                @Html.DropDownListFor(
+                                                    m => m.City,
+                                                    new SelectList(new List<SelectListItem>
+                                                    {
+                                                        new SelectListItem { Text = "إختر المحافظة", Value = "" },
+                                                        new SelectListItem { Text = "إربد", Value = "إربد" },
+                                                        new SelectListItem { Text = "المفرق", Value = "المفرق" },
+                                                        new SelectListItem { Text = "عجلون", Value = "عجلون" },
+                                                        new SelectListItem { Text = "جرش", Value = "جرش" },
+                                                        new SelectListItem { Text = "البلقاء", Value = "البلقاء" },
+                                                        new SelectListItem { Text = "مادبا", Value = "مادبا" },
+                                                        new SelectListItem { Text = "الكرك", Value = "الكرك" },
+                                                        new SelectListItem { Text = "الطفيلة", Value = "الطفيلة" },
+                                                        new SelectListItem { Text = "معان", Value = "معان" },
+                                                        new SelectListItem { Text = "العقبة", Value = "العقبة" },
+                                                        new SelectListItem { Text = "الزرقاء", Value = "الزرقاء" },
+                                                        new SelectListItem { Text = "عمان", Value = "عمان" }
+                                                    }, "Value", "Text", Model.City),
+                                                    new { @class = "form-control", id = "cityDropdown" }
+                                                )
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <div class="form-group">
-                                                @Html.LabelFor(m => m.ListName, "اسم القائمة", new { @class = "control-label" })
-                                                @Html.EditorFor(m => m.ListName, new { htmlAttributes = new { @class = "form-control", placeholder = "يرجى إدخال اسم القائمة" } })
-                                            </div>
-                                        </div>
+                                    </div>
+
                                     </div>
 
                                     <div class="row mt-4">
@@ -155,9 +177,7 @@
                                                                         {
                                                                             new SelectListItem { Text = "اختر الديانة", Value = "", Disabled = true },
                                                                             new SelectListItem { Text = "مسلم", Value = "مسلم" },
-                                                                            new SelectListItem { Text = "مسيحي", Value = "مسيحي" },
-                                                                            new SelectListItem { Text = "درزي", Value = "درزي" },
-                                                                            new SelectListItem { Text = "غير ذلك", Value = "غير ذلك" }
+                                                                            new SelectListItem { Text = "مسيحي", Value = "مسيحي" },                                                                          
                                                                         }, "Value", "Text", Model.Candidates[i].religion), new { @class = "form-control" })
                                                                         @Html.ValidationMessageFor(m => m.Candidates[i].religion, "", new { @class = "text-danger" })
                                                                     </div>
@@ -201,7 +221,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             }
                         </div>
                     </div> <!-- /.8 -->
@@ -217,6 +236,43 @@
         document.getElementById("sendBtn").onclick = function () {
             window.alert("تم إرسال النموذج سوف يتم التواصل معم بأقرب وقت")
         }
+            document.addEventListener('DOMContentLoaded', function () {
+                var cityDropdown = document.getElementById('cityDropdown');
+                var electionAreaInput = document.getElementById('electionAreaInput');
+                var electionAreaDropdown = document.getElementById('electionAreaDropdown');
+
+                var electionAreas = {
+                    "إربد": [
+                        { Text: "إربد الأولى", Value: "إربد الأولى" },
+                        { Text: "إربد الثانية", Value: "إربد الثانية" }
+                    ],
+                    "المفرق": [
+                        { Text: "المفرق", Value: "المفرق" }
+                    ]
+                };
+
+                cityDropdown.addEventListener('change', function () {
+                    var selectedCity = cityDropdown.value;
+
+                    if (electionAreas[selectedCity]) {
+                        var options = electionAreas[selectedCity].map(function (area) {
+                            return new Option(area.Text, area.Value);
+                        });
+
+                        electionAreaDropdown.innerHTML = '';
+                        options.forEach(function (option) {
+                            electionAreaDropdown.add(option);
+                        });
+
+                        electionAreaDropdown.style.display = 'block';
+                        electionAreaInput.style.display = 'none';
+                    } else {
+                        electionAreaDropdown.style.display = 'none';
+                        electionAreaInput.style.display = 'block';
+                    }
+                });
+            });
+
     </script>
 }
 

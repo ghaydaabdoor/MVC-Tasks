@@ -1,0 +1,122 @@
+﻿@*Task 1*@
+
+@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    a {
+        text-decoration: none;
+    }
+</style>
+<main>
+    <section style="background-color: #eee;">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-4 mb-4">
+                        <div class="card" style="border-radius: 15px;">
+                            <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
+                                 data-mdb-ripple-color="light">
+                                <img src="@Session["IMAGEURL"]"
+                                     style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"
+                                     alt="Product Image" />
+                                <a href="#!">
+                                    <div class="mask"></div>
+                                </a>
+                            </div>
+                            <div class="card-body pb-0">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <p><a href="#!" class="text-dark">@Session["PRDUCTNAME"]</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="my-0" />
+                            <div class="card-body pb-0">
+                                <div class="d-flex justify-content-between">
+                                    <p><a href="#!" class="text-dark">@Session["PRODUCTPRICE"]</a></p>
+                                </div>
+                            </div>
+                            <hr class="my-0" />
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                                    <button type="button" class="btn btn-primary">Buy now</button>
+                                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*Task 2*@
+@*@model List<Aug13.Models.Card>
+
+
+    @{
+        ViewBag.Title = "Home Page";
+    }
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <main>
+        <section style="background-color: #eee;">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    @foreach (var card in Model)
+                    {
+                        <div class="col-md-8 col-lg-6 col-xl-4 mb-4">
+                            <div class="card" style="border-radius: 15px;">
+                                <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
+                                     data-mdb-ripple-color="light">
+                                    <img src="@card.ImageUrl"
+                                         style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"
+                                         alt="Product Image" />
+                                    <a href="#!">
+                                        <div class="mask"></div>
+                                    </a>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <p><a href="#!" class="text-dark">@card.ProductName</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr class="my-0" />
+                                <div class="card-body pb-0">
+                                    <div class="d-flex justify-content-between">
+                                        <p><a href="#!" class="text-dark">@card.ProductPrice</a></p>
+                                    </div>
+                                </div>
+                                <hr class="my-0" />
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center pb-2 mb-1">
+                                        <button type="button" class="btn btn-primary">Buy now</button>
+                                        <button type="button" class="btn btn-primary">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </section>
+    </main>*@

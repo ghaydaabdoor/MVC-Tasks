@@ -37,7 +37,7 @@ namespace JOVOICE.Models
         public string ElectionArea { get; set; }
         public string City { get; set; }
         public string ListName { get; set; }
-
+        public int MaxCandidates { get; set; }
         public TempCandidateLocalsViewModel()
         {
             Candidates = new List<TempCandidateLocal>(10); // Initialize with 41 empty candidates
