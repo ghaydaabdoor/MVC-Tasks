@@ -77,9 +77,11 @@ C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\bin\Newtonsoft.J
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\bin\Antlr3.Runtime.pdb
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.csproj.AssemblyReference.cache
+C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.Migrations.InitialCreate.resources
+C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.Migrations.bb.resources
+C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.Migrations.editDate.resources
+C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.csproj.GenerateResource.cache
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.csproj.CoreCompileInputs.cache
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirs.762B5B05.Up2Date
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.dll
 C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.pdb
-C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.Migrations.InitialCreate.resources
-C:\Users\Orange\Desktop\MVC-Tasks\CodeFirstTask2\CodeFirstTask2\obj\Debug\CodeFirstTask2.csproj.GenerateResource.cache

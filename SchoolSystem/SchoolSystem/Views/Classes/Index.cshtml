@@ -1,0 +1,54 @@
+﻿@model IEnumerable<SchoolSystem.Models.Class>
+
+@{
+    ViewBag.Title = "Classes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .fixed-height-card {
+        height: 250px; /* Set the desired fixed height */
+        overflow: hidden; /* Hide overflow content */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Ensures buttons stay at the bottom */
+    }
+
+    .card-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-height: 80px; /* Adjust this to control how much of the text is shown */
+    }
+</style>
+<h2>Classes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+</p>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm fixed-height-card">
+                <!-- Added the fixed-height-card class -->
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.ClassName)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.ClassDescription)</p>
+
+                    <!-- Action Buttons: Edit, Details, Delete -->
+                    <div class="mb-3">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ClassId }, new { @class = "btn btn-secondary btn-sm" })
+                        @Html.ActionLink("Details", "Details", new { id = item.ClassId }, new { @class = "btn btn-info btn-sm" })
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ClassId }, new { @class = "btn btn-danger btn-sm" })
+                    </div>
+
+                    <!-- Student and Task List Buttons in a Separate Line -->
+                    <div class="mt-2">
+                        @Html.ActionLink("Student List", "Index", "Students", new { id = item.ClassId }, new { @class = "btn btn-primary btn-sm" })
+                        @Html.ActionLink("Task List", "Index", "Tasks", new { id = item.ClassId }, new { @class = "btn btn-primary btn-sm" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

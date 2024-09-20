@@ -1,5 +1,6 @@
 ﻿namespace CodeFirstTask2.Migrations
 {
+    using CodeFirstTask2.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -18,6 +19,16 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
+
+            // Adding a new teacher if it doesn't exist
+            context.Teachers.AddOrUpdate(t => t.Name, // AddOrUpdate checks for existing data
+                new Teacher { Name = "John Doe", Subject = "Mathematics" },
+                new Teacher { Name = "Jane Smith", Subject = "Science" }
+            );
+
+            // Ensure you save changes
+            context.SaveChanges();
+
         }
     }
 }

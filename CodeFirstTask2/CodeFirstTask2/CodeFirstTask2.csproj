@@ -139,12 +139,22 @@
     <Compile Include="Migrations\202409182005252_InitialCreate.Designer.cs">
       <DependentUpon>202409182005252_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409190638352_bb.cs" />
+    <Compile Include="Migrations\202409190638352_bb.Designer.cs">
+      <DependentUpon>202409190638352_bb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409190735058_editDate.cs" />
+    <Compile Include="Migrations\202409190735058_editDate.Designer.cs">
+      <DependentUpon>202409190735058_editDate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\SchoolContext.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Models\StudentDetails.cs" />
+    <Compile Include="Models\StudentViewModel.cs" />
     <Compile Include="Models\Teacher.cs" />
+    <Compile Include="Models\TeacherViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -252,6 +262,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202409182005252_InitialCreate.resx">
       <DependentUpon>202409182005252_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409190638352_bb.resx">
+      <DependentUpon>202409190638352_bb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409190735058_editDate.resx">
+      <DependentUpon>202409190735058_editDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Classes Card -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Classes</h5>
+                        <p class="card-text">
+                            Manage your classes, add or remove students, and monitor academic progress.
+                        </p>
+                        <a href="@Url.Action("Index", "Classes")" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Subjects Card -->
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Subjects (Courses)</h5>
+                        <p class="card-text">
+                            Explore the list of subjects, manage course content, and view subject details.
+                        </p>
+                        <a href="@Url.Action("Index", "Courses")" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

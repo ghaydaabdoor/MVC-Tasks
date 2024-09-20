@@ -1,4 +1,4 @@
-﻿@model CodeFirstTask2.Models.Student
+﻿@model CodeFirstTask2.Models.StudentViewModel
 
 @{
     ViewBag.Title = "Delete";
@@ -21,19 +21,11 @@
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.FirstName)
+            @Html.DisplayNameFor(model => model.Student.FirstName)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.FirstName)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.LastName)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.LastName)
+            @Html.DisplayFor(model => model.Student.LastName)
         </dd>
 
     </dl>

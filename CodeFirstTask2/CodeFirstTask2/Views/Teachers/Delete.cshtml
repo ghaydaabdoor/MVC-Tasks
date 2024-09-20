@@ -1,4 +1,4 @@
-﻿@model CodeFirstTask2.Models.Teacher
+﻿@model CodeFirstTask2.Models.TeacherViewModel
 
 @{
     ViewBag.Title = "Delete";
@@ -13,19 +13,26 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.teacher.Name)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Name)
+            @Html.DisplayFor(model => model.teacher.Name)
         </dd>
 
         <dt>
-            @Html.DisplayNameFor(model => model.Subject)
+            @Html.DisplayNameFor(model => model.teacher.Subject)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Subject)
+            @Html.DisplayFor(model => model.teacher.Subject)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.course.CourseName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.course.CourseName)
         </dd>
 
     </dl>

@@ -10,7 +10,7 @@ namespace CodeFirstTask2.Models
     {
         [Key]
         public int StudentDetailsId { get; set; }
-        public DateTime DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
         public string Address { get; set; }
         public int StudentId { get; set; }
         public virtual Student Student { get; set; }

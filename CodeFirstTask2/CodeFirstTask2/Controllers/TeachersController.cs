@@ -17,7 +17,17 @@ namespace CodeFirstTask2.Controllers
         // GET: Teachers
         public ActionResult Index()
         {
-            return View(db.Teachers.ToList());
+            // Get list of Teachers with their associated Course
+            var teachers = db.Teachers.Include(t => t.Courses).ToList();
+
+            // Create a list of TeacherViewModel
+            var teacherViewModels = teachers.Select(t => new TeacherViewModel
+            {
+                teacher = t,
+                course = t.Courses.FirstOrDefault()
+            }).ToList();
+
+            return View(teacherViewModels);
         }
 
         // GET: Teachers/Details/5
@@ -27,36 +37,61 @@ namespace CodeFirstTask2.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Teacher teacher = db.Teachers.Find(id);
+
+            // Get the Teacher and their Course
+            Teacher teacher = db.Teachers.Include(t => t.Courses).FirstOrDefault(t => t.TeacherId == id);
             if (teacher == null)
             {
                 return HttpNotFound();
             }
-            return View(teacher);
+
+            var viewModel = new TeacherViewModel
+            {
+                teacher = teacher,
+                course = teacher.Courses.FirstOrDefault()
+            };
+
+            return View(viewModel);
         }
 
         // GET: Teachers/Create
         public ActionResult Create()
         {
+            ViewBag.CourseId = new SelectList(db.Courses, "CourseId", "CourseName"); // Assuming you're using dropdown for Courses
             return View();
         }
 
         // POST: Teachers/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Teachers/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "TeacherId,Name,Subject")] Teacher teacher)
+        public ActionResult Create(TeacherViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
-                db.Teachers.Add(teacher);
-                db.SaveChanges();
+                // Add the new Teacher to the context
+                db.Teachers.Add(viewModel.teacher);
+                db.SaveChanges(); // Save the teacher first to ensure the TeacherId is generated
+
+                // Now retrieve the selected Course based on the CourseId from the view model
+                var course = db.Courses.Find(viewModel.course.CourseId);
+
+                if (course != null)
+                {
+                    // Assign the teacher to the course
+                    course.TeacherId = viewModel.teacher.TeacherId;
+                    db.Entry(course).State = EntityState.Modified;
+                }
+
+                db.SaveChanges(); // Save the changes again to ensure the course is linked
                 return RedirectToAction("Index");
             }
 
-            return View(teacher);
+            // If model state is invalid, reload the dropdown list and return the view
+            ViewBag.CourseId = new SelectList(db.Courses, "CourseId", "CourseName", viewModel.course.CourseId);
+            return View(viewModel);
         }
+
 
         // GET: Teachers/Edit/5
         public ActionResult Edit(int? id)
@@ -65,28 +100,37 @@ namespace CodeFirstTask2.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Teacher teacher = db.Teachers.Find(id);
+
+            Teacher teacher = db.Teachers.Include(t => t.Courses).FirstOrDefault(t => t.TeacherId == id);
             if (teacher == null)
             {
                 return HttpNotFound();
             }
-            return View(teacher);
+
+            var viewModel = new TeacherViewModel
+            {
+                teacher = teacher,
+                course = teacher.Courses.FirstOrDefault()
+            };
+
+            ViewBag.CourseId = new SelectList(db.Courses, "CourseId", "CourseName", teacher.Courses);
+            return View(viewModel);
         }
 
         // POST: Teachers/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "TeacherId,Name,Subject")] Teacher teacher)
+        public ActionResult Edit(TeacherViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(teacher).State = EntityState.Modified;
+                db.Entry(viewModel.teacher).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return View(teacher);
+
+            ViewBag.CourseId = new SelectList(db.Courses, "CourseId", "CourseName", viewModel.course.CourseId);
+            return View(viewModel);
         }
 
         // GET: Teachers/Delete/5
@@ -96,12 +140,20 @@ namespace CodeFirstTask2.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Teacher teacher = db.Teachers.Find(id);
+
+            Teacher teacher = db.Teachers.Include(t => t.Courses).FirstOrDefault(t => t.TeacherId == id);
             if (teacher == null)
             {
                 return HttpNotFound();
             }
-            return View(teacher);
+
+            var viewModel = new TeacherViewModel
+            {
+                teacher = teacher,
+                course = teacher.Courses.FirstOrDefault()
+            };
+
+            return View(viewModel);
         }
 
         // POST: Teachers/Delete/5
@@ -109,9 +161,13 @@ namespace CodeFirstTask2.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Teacher teacher = db.Teachers.Find(id);
-            db.Teachers.Remove(teacher);
-            db.SaveChanges();
+            Teacher teacher = db.Teachers.Include(t => t.Courses).FirstOrDefault(t => t.TeacherId == id);
+            if (teacher != null)
+            {
+                db.Teachers.Remove(teacher);
+                db.SaveChanges();
+            }
+
             return RedirectToAction("Index");
         }
 

@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\views\\classes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\views\\classes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\views\\tasks\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\migrations\\202409201858580_seedstudentsandtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\migrations\\202409201858580_seedstudentsandtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|c:\\users\\orange\\desktop\\mvc-tasks\\schoolsystem\\schoolsystem\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\models\\class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\schoolsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD1951D9-40DF-4F5C-A695-671E920713EC}|SchoolSystem\\SchoolSystem.csproj|solutionrelative:schoolsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "SchoolSystem\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T19:24:33.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SchoolSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAB3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T19:23:07.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Tasks\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem\\Views\\Tasks\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Tasks\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem\\Views\\Tasks\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T19:01:39.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Classes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem\\Views\\Classes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Classes\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem\\Views\\Classes\\Index.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwDMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T18:33:23.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T18:11:11.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "SchoolSystem\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:11:03.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SchoolSystem\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T11:33:48.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "SchoolSystem\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:40:38.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "SchoolSystem\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwHgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:40:24.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "SchoolSystem\\Controllers\\ClassesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:20:14.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "202409201858580_SeedStudentsAndTasks.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Migrations\\202409201858580_SeedStudentsAndTasks.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Migrations\\202409201858580_SeedStudentsAndTasks.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Migrations\\202409201858580_SeedStudentsAndTasks.cs",
+              "RelativeToolTip": "SchoolSystem\\Migrations\\202409201858580_SeedStudentsAndTasks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:59:02.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Student.cs",
+              "RelativeToolTip": "SchoolSystem\\Models\\Student.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:22:59.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "SchoolSystem\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwC0AAACaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T11:00:53.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Task.cs",
+              "RelativeToolTip": "SchoolSystem\\Models\\Task.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:23:26.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SchoolSystem\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T11:27:58.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "SchoolSystem\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "SchoolSystem\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T11:22:46.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\User.cs",
+              "RelativeToolTip": "SchoolSystem\\Models\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:17:19.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Web.config",
+              "RelativeDocumentMoniker": "SchoolSystem\\Web.config",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Web.config",
+              "RelativeToolTip": "SchoolSystem\\Web.config",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-20T09:49:30.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Class.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Models\\Class.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Class.cs",
+              "RelativeToolTip": "SchoolSystem\\Models\\Class.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:22:23.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "SchoolSystem\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\MVC-Tasks\\SchoolSystem\\SchoolSystem\\Models\\Course.cs",
+              "RelativeToolTip": "SchoolSystem\\Models\\Course.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T09:21:04.475Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

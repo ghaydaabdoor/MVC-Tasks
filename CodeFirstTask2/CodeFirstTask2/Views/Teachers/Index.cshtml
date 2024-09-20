@@ -1,4 +1,4 @@
-﻿@model IEnumerable<CodeFirstTask2.Models.Teacher>
+﻿@model IEnumerable<CodeFirstTask2.Models.TeacherViewModel>
 
 @{
     ViewBag.Title = "Index";
@@ -13,10 +13,13 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name)
+            @Html.DisplayNameFor(model => model.teacher.Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Subject)
+            @Html.DisplayNameFor(model => model.teacher.Subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.course.CourseName)
         </th>
         <th></th>
     </tr>
@@ -24,15 +27,18 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Name)
+            @Html.DisplayFor(modelItem => item.teacher.Name)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Subject)
+            @Html.DisplayFor(modelItem => item.teacher.Subject)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.TeacherId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.TeacherId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.TeacherId })
+            @Html.DisplayFor(modelItem => item.course.CourseName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.teacher.TeacherId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.teacher.TeacherId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.teacher.TeacherId })
         </td>
     </tr>
 }

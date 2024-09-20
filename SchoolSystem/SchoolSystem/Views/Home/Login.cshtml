@@ -1,0 +1,74 @@
+﻿@model SchoolSystem.Models.User
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+
+    .h-custom {
+        height: calc(100% - 73px);
+    }
+
+    ::placeholder {
+        text-align: left;
+    }
+    input{
+        width:100%;
+    }
+</style>
+
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <!-- Page Title -->
+                <h2 class="mb-4 text-center">Login</h2>
+
+                @using (Html.BeginForm("Login", "Home", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="container py-5" dir="rtl">
+                        <div class="mx-md-4">
+                            <!-- Email Field -->
+                            <div class="form-group d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-envelope fa-lg ms-3 fa-fw"></i>
+                                <div class="flex-fill">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <!-- Password Field -->
+                            <div class="form-group d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-lock fa-lg ms-3 fa-fw"></i>
+                                <div class="flex-fill">
+                                    @Html.PasswordFor(model => model.Password, new { @class = "form-control", placeholder = "Password" })
+                                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="d-flex justify-content-center mb-3 mb-lg-4">
+                                <input type="submit" class="btn btn-primary w-100" value="Login">
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
